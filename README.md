@@ -2,6 +2,12 @@
 
 This project is an example of what you can quickly achieve with AngularJS and some open-source libs.
 
+### Custom player controls
+
+Pressing 'Space' toggle 'Play' / 'Pause'.
+Pressing 'Left' / 'Right' arrow move to 'Previous' / 'Next' frame.
+Pressing 'Up' / 'Down' arrow move 1 second 'Backward' / 'Forward'.
+
 ### Tech
 
 This YouTube Player uses a number of open source projects to work properly:
