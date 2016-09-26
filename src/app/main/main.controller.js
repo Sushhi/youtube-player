@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($timeout, $log, PlayerService) {
+  function MainController($timeout, $scope, $log, PlayerService) {
     var vm = this;
     vm.videoUrl = 'https://youtu.be/HLmOkDBfxv0?t=8';
     vm.playerVars = {
@@ -18,10 +18,10 @@
       $timeout(function () {
         /** Initializing shortcuts for the YouTube Player  */
         PlayerService.initShortcuts(vm.ytPlayer);
-      }, 400);
+      }, 600);
     }
 
-    vm.$on('_player-not-ready', function () {
+    $scope.$on('_player-not-ready', function () {
       $log.debug('Player was not ready, re-trying...');
       vm.initializeShortcuts();
     });
