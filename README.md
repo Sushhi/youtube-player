@@ -48,6 +48,12 @@ Just launch the gulp server and you are good to go :).
 $ gulp serve
 ```
 
+To launch unit tests
+
+```sh
+$ gulp test
+```
+
 ### Todos
 
  - Write E2E Tests
