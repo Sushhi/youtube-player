@@ -2,6 +2,6 @@
   'use strict';
 
   angular
-    .module('itTests', ['ngSanitize', 'ngRoute', 'ui.bootstrap', 'toastr']);
+    .module('itTests', ['ngSanitize', 'ngRoute', 'ui.bootstrap', 'youtube-embed', 'cfp.hotkeys']);
 
 })();
