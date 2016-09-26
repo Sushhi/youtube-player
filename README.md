@@ -4,9 +4,9 @@ This project is an example of what you can quickly achieve with AngularJS and so
 
 ### Custom player controls
 
-Pressing 'Space' toggle 'Play' / 'Pause'.
-Pressing 'Left' / 'Right' arrow move to 'Previous' / 'Next' frame.
-Pressing 'Up' / 'Down' arrow move 1 second 'Backward' / 'Forward'.
+- Pressing 'Space' toggle 'Play' / 'Pause'.
+- Pressing 'Left' / 'Right' arrow move to 'Previous' / 'Next' frame.
+- Pressing 'Up' / 'Down' arrow move 1 second 'Backward' / 'Forward'.
 
 ### Tech
 
