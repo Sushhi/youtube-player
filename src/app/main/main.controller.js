@@ -8,10 +8,11 @@
   /** @ngInject */
   function MainController($timeout, $scope, $log, PlayerService) {
     var vm = this;
-    vm.videoUrl = 'https://youtu.be/HLmOkDBfxv0?t=8';
+    vm.videoUrl = 'https://www.youtube.com/watch?v=C0EeRQ0PsCI';
     vm.playerVars = {
-      autoplay: 0,
-      controls: 1
+      autoplay: 1,
+      controls: 1,
+      height: 360
     };
 
     vm.initializeShortcuts = function () {

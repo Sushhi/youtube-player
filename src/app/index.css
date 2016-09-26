@@ -1,8 +1,14 @@
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+h3, .controls-list, .github-infos {
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .thumbnail {
@@ -15,4 +21,18 @@
 
 .mt-100 {
   margin-top: 100px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.tech-logo {
+  height: 70px;
+  width: auto;
+  padding: 10px;
 }
