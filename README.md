@@ -9,8 +9,8 @@ This YouTube Player uses a number of open source projects to work properly:
 * [AngularJS] - HTML enhanced for web apps.
 * [Twitter Bootstrap] - great UI boilerplate for modern web apps.
 * [Gulp] - the streaming build system.
-* [Bower](https://github.com/chieffancypants/angular-hotkeys/)- package manager for the web.
-* [npm](https://github.com/chieffancypants/angular-hotkeys/)- package manager for JavaScript.
+* [Bower](https://github.com/chieffancypants/angular-hotkeys/) - package manager for the web.
+* [npm](https://github.com/chieffancypants/angular-hotkeys/) - package manager for JavaScript.
 * [jQuery] - duh
 * [brandly/angular-youtube-embed](https://github.com/brandly/angular-youtube-embed) - embed a YouTube player with a simple directive.
 * [chieffancypants/angular-hotkeys](https://github.com/chieffancypants/angular-hotkeys/) - configuration-centric keyboard shortcuts for your Angular apps.
