@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($timeout, $scope, $log, PlayerService) {
+  function MainController($timeout, $scope, $log, $window, PlayerService) {
     var vm = this;
     vm.videoUrl = 'https://www.youtube.com/watch?v=C0EeRQ0PsCI';
     vm.playerVars = {
@@ -26,6 +26,12 @@
       $log.debug('Player was not ready, re-trying...');
       vm.initializeShortcuts();
     });
+
+    $window.addEventListener("keydown", function(e) {
+      if([38, 40].indexOf(e.keyCode) > -1) {
+        e.preventDefault();
+      }
+    }, false);
 
     vm.initializeShortcuts();
 
